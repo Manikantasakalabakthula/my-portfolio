@@ -371,6 +371,12 @@ hr{
 }
 /* Media Query */
 @media screen and (max-width: 780px) {
+    body{
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
 /* ✅ Header Section */
     .links, .contact {
         display: none;
