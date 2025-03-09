@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manikanta</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ✅ Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Manikanta<span class="dot">.</span></div>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <a href="#" class="contact">Contact <i class="fa-solid fa-arrow-right"></i></a>
+
+            <!-- ✅ Hidden Checkbox -->
+            <input type="checkbox" id="menu-toggle">
+
+            <!-- ✅ Toggle Button -->
+            <label for="menu-toggle" class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+
+            <!-- ✅ Dropdown Menu -->
+            <div class="dropdown">
+                <ul class="link">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact" class="btn">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- ✅ Main Section -->
+     <main>
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <img src="assets/images/profile-img.jpg" alt="Profile">
+            <h1 class="name">Hi! I'm Manikanta Sakalabakthula&#128075;</h1>
+            <h2 class="tech">Frontend Developer</h2>
+            <div class="descrption">I'm a Aspiring Frontend Developer with a passion for crafting visually appealing and user-friendly websites. Proficient in HTML, CSS, eager to learn and implement modern web technologies.</div>
+            <div class="buttons">
+                <a class="contact-me button" href="#">Contact Me <i class="fa-solid fa-arrow-right"></i></a>
+                <a class="resume button" href="https://drive.google.com/file/d/1xvjcCIQxdqw3Imap1kt9abXe-hZhT4r5/view?usp=sharing" target="_blank">My resume <i class="fa fa-download" aria-hidden="true"></i></a>
+            </div>
+        </section>
+
+        <!-- ✅ About Section -->
+        <section class="about" id="about">
+            <h1>Introduction</h1>
+            <h2>About me</h2>
+            <div class="image-intro">
+                <div class="image">
+                    <img src="assets/images/user-image.jpg" alt="user-image">
+                </div>
+                <div class="intro">
+                    Hello! I'm Manikanta, a passionate Frontend Developer. I specialize in HTML, CSS to build responsive and user-friendly web applications. Currently, I'm enhancing my skills by working on real-time projects and templates. I have a strong foundation in web development concepts and problem-solving. I enjoy creating visually appealing and efficient websites with a focus on user experience. I'm also exploring backend development to build full-stack applications. My goal is to become a skilled developer and contribute to innovative projects. Always eager to learn and adapt to the latest technologies!
+                </div>
+            </div>
+         </section>
+
+         <!-- ✅ Education Section -->
+         <section class="education" id="education">
+            <h1>Education Details</h1>
+            <div class="cards">
+                <div class="education-cards">
+                    <h1>KIET - Kakinada</h1>
+                    <p>BTech(CSE - DATA SCIENCE)</p>
+                    <p>68.1%</p>
+                </div>
+                <div class="education-cards">
+                    <h1>Sri Chaitanya Junior College</h1>
+                    <p>Intermediate(MPC)</p>
+                    <p>86.1%</p>
+                </div>
+                <div class="education-cards">
+                    <h1>Geetanjali Public School</h1>
+                    <p>Class x</p>
+                    <p>87.5%</p>
+                </div>
+            </div>
+          </section>
+
+          <!-- t✅ skills section -->
+          <section class="skills" id="skills">
+            <h1>Technical Skills</h1>
+            <div class="skills-container">
+                
+                <div class="skill">
+                    <i class="fab fa-html5 html"></i>
+                    <h3>HTML</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fab fa-css3-alt css"></i>
+                    <h3>CSS</h3>
+                </div>
+        
+                <div class="skill">
+                    <i class="fab fa-js js"></i>
+                    <h3>JavaScript</h3>
+                </div>
+        
+                <div class="skill">
+                    <i class="fab fa-python python"></i>
+                    <h3>Python</h3>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ✅ project section -->
+         <section class="project" id="project">
+            <h1>Projects</h1>
+            <div class="project-cards">
+                <div class="card">
+                    <h2>Personal Portfolio</h2>
+                    <p>A modern and responsive portfolio website showcasing skills, projects, and achievements. Designed with an intuitive UI.</p>
+                    <a href="https://manikantasakalabakthula.github.io/my-portfolio/" target="_blank">Click Here</a>
+                </div>
+                <div class="card">
+                    <h2>Techdit</h2>
+                    <p>Techdit is a modern, responsive landing page designed to showcase tech gadgets with a sleek and user-friendly interface.</p>
+                    <a href="https://manikantasakalabakthula.github.io/Techdit/" target="_blank">Click Here</a>
+                </div>
+                <div class="card">
+                    <h2>Doctor Visit Analysis</h2>
+                    <p>A data-driven web application analyzing patient visits, providing insights into appointment trends, consultation frequency, and patient demographics.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- ✅ contact section -->
+          <section class="contact-form" id="contact">
+            <h1>Connect with me</h1>
+            <h2>Get in touch</h2>
+            <p>I'd love to hear from you! If you have any questions, comments or feedback, please use the form below.</p>
+            <form>
+                <div>
+                    <input type="text" name="Full Name" id="name" placeholder="Enter your name" required>
+                    <input type="email" name="Email ID" id="mail" placeholder="Enter your email" required>
+                </div>
+                <textarea cols="5" rows="10" name="Message" id="Message" placeholder="Enter your message" required></textarea>
+                <input type="submit" value="Submit now" class="submit"> 
+            </form>
+          </section>
+          <div class="last-name">
+            <div class="logo">Manikanta<span class="dot">.</span></div>
+            <div class="mail"><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:manikantas2412@gmail.com"> manikantas2412@gmail.com</a></div>
+          </div>
+     </main>
+
+     <!-- ✅ footer section -->
+     <footer>
+        
+        <hr>
+        <div class="footer">
+            <p>&copy; 2024 Eliana Jade. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://github.com/Manikantasakalabakthula" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/manikanta-sakalabakthula-199783203/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+     </footer>
+     </main>
+</body>
+</html>
