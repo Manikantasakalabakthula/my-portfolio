@@ -326,7 +326,6 @@ input[type="checkbox"]{
 }
 .contact-form textarea{
     color: white;
-    width: 600px;
     background-color: #11031f;
     border: 2px solid white;
     border-radius: 10px;
