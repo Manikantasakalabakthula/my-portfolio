@@ -136,7 +136,7 @@ input[type="checkbox"]{
 }
 .about-heading{
     font-size: 60px;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 0;
 }
 .about-description{
@@ -164,6 +164,7 @@ input[type="checkbox"]{
 
 .education-name{
     font-size: 50px;
+    font-weight: 600;
 }
 .education-details-item{
     padding-left: 30px;
@@ -198,7 +199,48 @@ input[type="checkbox"]{
     padding-bottom: 10px;
     font-size: 18px;
 }
-
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.skills-name{
+    font-size: 60px;
+    font-weight: 600;
+}
+.skills-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.skills-card-items{
+    font-size: 20px;
+    font-weight: 600;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skills .skills-card .skills-card-items i{
+    font-size: 50px;
+}
+.html{
+    color: #dd4b24;
+}
+.css{
+    color: #254CD4;
+    ;
+}
+.boo{
+    color: #8512f7;
+}
+.python{
+    color: #3571a4;
+}
 @media screen and (max-width:992px) {
     .logo{
         font-size: 20px;
@@ -254,7 +296,15 @@ input[type="checkbox"]{
     }
     .about-description .about-me{
         width: 500px;
-    }  
+    }
+    .skills{
+        padding: 0 200px 0 200px;
+    }
+    .skills-card-items{
+        width: 100px;
+        padding: 0;
+        gap: 20px;
+    }
 }
 @media screen and (max-width:768px) {
     .image{
@@ -320,7 +370,7 @@ input[type="checkbox"]{
         gap: 30px;
     }
     .education-name{
-        font-size: 40px;
+        font-size: 30px;
     }
     .dot{
         padding: 1px;
@@ -328,5 +378,35 @@ input[type="checkbox"]{
     .education-details-item:not(:last-child)::before{
         top: 10px;
         left: 6px;
+    }
+
+    .skills{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .skills-name{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .skills-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills-card-items{
+        font-size: 20px;
+        font-weight: 600;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills .skills-card .skills-card-items i{
+        font-size: 30px;
     }
 }
