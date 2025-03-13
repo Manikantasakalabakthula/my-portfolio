@@ -210,20 +210,15 @@ input[type="checkbox"]{
         display: block;
         font-size: 20px;
     }
-
     input[type="checkbox"]:checked ~ .dropdown {
         display: block;
     }
-
-
     input[type="checkbox"]:checked + label .fa-bars {
         display: none;
     }
-
     input[type="checkbox"]:checked + label .fa-xmark {
         display: block;
     }
-
     .fa-xmark {
         display: none;
     }
@@ -242,8 +237,7 @@ input[type="checkbox"]{
         margin-top: 0;
         margin-bottom: 0;
         font-size: 45px;
-        font-weight: 400;
-        
+        font-weight: 400;    
     }
     .description{
         width: 600px;
@@ -260,9 +254,7 @@ input[type="checkbox"]{
     }
     .about-description .about-me{
         width: 500px;
-    }
-    
-    
+    }  
 }
 @media screen and (max-width:768px) {
     .image{
@@ -332,10 +324,8 @@ input[type="checkbox"]{
     }
     .dot{
         padding: 1px;
-
     }
     .education-details-item:not(:last-child)::before{
-        
         top: 10px;
         left: 6px;
     }
