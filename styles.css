@@ -199,7 +199,9 @@ input[type="checkbox"]{
     padding-bottom: 10px;
     font-size: 18px;
 }
+/* SKILLS Section */
 .skills{
+    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,6 +242,86 @@ input[type="checkbox"]{
 }
 .python{
     color: #3571a4;
+}
+
+/* PROJECT Section */
+.projects{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.projects-name{
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+}
+.projects-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects-card-items{
+    width: 400px;
+    padding: 0 50px;
+    text-align: center;
+}
+.contacts{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contact-name{
+    font-size: 60px;
+    font-weight: 600;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contact-form-name{
+    display: flex;
+    gap: 20px;
+}
+input{
+    padding: 20px;
+    background-color: #11031f;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+textarea{
+    background-color: #11031f;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+[placeholder="Write Your Comments Here...."]{
+    padding: 15px;
+}
+[type="submit"]{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(to right, #A12DF0, #E07B39);
+}
+main .logo, .mail{
+    text-align: center;
+}
+
+/* FOOTER section */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.footer-links i{
+    font-size: 20px;
+    padding: 10px;
 }
 @media screen and (max-width:992px) {
     .logo{
@@ -408,5 +490,38 @@ input[type="checkbox"]{
     }
     .skills .skills-card .skills-card-items i{
         font-size: 30px;
+    }
+    .projects{
+        gap10px
+    }
+    .projects-name{
+        font-size: 30px;
+    }
+    .projects-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-name{
+        font-size: 30px;
+    }
+    .contact-form{
+        gap: 20px;
+    }
+    input{
+        padding: 10px;
+    }
+    [type="submit"]{
+        padding: 10px;
+    }
+    .footer{
+        font-size: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+    }
+    .footer-links i{
+        font-size: 20px;
+        padding: 5px;
     }
 }
