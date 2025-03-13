@@ -128,7 +128,6 @@ input[type="checkbox"]{
 
 /* About Section */
 .about{
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +154,6 @@ input[type="checkbox"]{
 
 /* Education Details */
 .education{
-    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,7 +199,6 @@ input[type="checkbox"]{
 }
 /* SKILLS Section */
 .skills{
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -246,7 +243,6 @@ input[type="checkbox"]{
 
 /* PROJECT Section */
 .projects{
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -268,8 +264,8 @@ input[type="checkbox"]{
     padding: 0 50px;
     text-align: center;
 }
+/* CONTACT Section */
 .contacts{
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
