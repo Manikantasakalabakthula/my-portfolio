@@ -76,7 +76,6 @@ input[type="checkbox"]{
 
 /* Home Section */
 .home{
-    background-color: #11031f;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
@@ -141,9 +140,9 @@ input[type="checkbox"]{
     margin-bottom: 0;
 }
 .about-description{
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     gap: 50px;
 }
 .about-description img{
@@ -152,6 +151,52 @@ input[type="checkbox"]{
 }
 .about-description .about-me{
     width: 700px;
+}
+
+/* Education Details */
+.education{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.education-name{
+    font-size: 50px;
+}
+.education-details-item{
+    padding-left: 30px;
+    position: relative;
+    padding-bottom: 70px;
+}
+.dot{
+    width: 14px;
+    height: 14px;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+    top: 5px;
+}
+.education-details-item:not(:last-child)::before{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    left: 8px;
+}
+.education-details-name{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.education-details-spec{
+    font-weight: 600;
+    padding-bottom: 10px;
+    font-size: 18px;
 }
 
 @media screen and (max-width:992px) {
@@ -255,9 +300,7 @@ input[type="checkbox"]{
         background-color: #E5E5E5;
         color: #333333;
     }
-    .about{
-        padding: 50px;
-    }
+
     .about-description{
         margin-top: 30px;
         display: flex;
@@ -278,5 +321,22 @@ input[type="checkbox"]{
         margin-top: 0;
         width: 300px;
         font-size: 14px;
+    }
+    .education{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .education-name{
+        font-size: 40px;
+    }
+    .dot{
+        padding: 1px;
+
+    }
+    .education-details-item:not(:last-child)::before{
+        
+        top: 10px;
+        left: 6px;
     }
 }
